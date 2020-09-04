@@ -33,6 +33,7 @@ module.exports = {
       node: {
         extensions: ['.tsx', '.ts', '.js', '.json'],
       },
+      typescript: {},
     },
   },
   plugins: ['react', 'unicorn', 'promise', '@typescript-eslint'],
@@ -97,7 +98,7 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-interactions': OFF,
 
     'lines-between-class-members': [ERROR, 'always'],
-    indent: [ERROR, 2, { SwitchCase: 1 }],
+    // indent: [ERROR, 2, { SwitchCase: 1 }],
     'linebreak-style': [ERROR, 'unix'],
     quotes: [ERROR, 'single'],
     semi: [ERROR, 'never'],
